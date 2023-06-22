@@ -7,6 +7,6 @@ using Xamarin.Forms.Xaml;
 
 #endif
 ///<see href="https://github.com/felipebaltazar/Xamarin.Custom.Fonts"/>
-[assembly: ExportFont("RobotoCondensed-Regular.ttf", Alias = "RobotoCondensedRegular")]
-[assembly: ExportFont("RobotoCondensed-Bold.ttf", Alias = "RobotoCondensedBold")]
-[assembly: ExportFont("RobotoCondensed-Light.ttf", Alias = "RobotoCondensedLight")]
+//[assembly: ExportFont("RobotoCondensed-Regular.ttf", Alias = "RobotoCondensedRegular")]
+//[assembly: ExportFont("RobotoCondensed-Bold.ttf", Alias = "RobotoCondensedBold")]
+//[assembly: ExportFont("RobotoCondensed-Light.ttf", Alias = "RobotoCondensedLight")]

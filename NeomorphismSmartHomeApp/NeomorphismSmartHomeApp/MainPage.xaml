@@ -30,12 +30,10 @@
 
         <StackLayout Orientation="Vertical" Spacing="0">
             <Label Text="Home"
-                   FontFamily="RobotoCondensedRegular"
-                   FontSize="Title" TextColor="Black"/>
+                   FontSize="18" TextColor="Black"/>
 
             <Label Text="Lorem Ipsum is"
-                   FontFamily="RobotoCondensedBold"
-                   FontSize="Micro" TextColor="Black"/>
+                   FontSize="12" TextColor="Black"/>
         </StackLayout>
 
         <neo:NeoButton Grid.Row="1"
@@ -54,8 +52,7 @@
                        Source="{extensions:ImageResource NeomorphismSmartHomeApp.Resources.Images.SmartTv.png }"/>
                 
                 <Label Text="Smart Tv"
-                       FontFamily="RobotoCondensedBold"
-                       FontSize="Small"
+                       FontSize="10"
                        TextColor="#95a3b8"
                        VerticalOptions="EndAndExpand"/>
             </StackLayout>
@@ -79,8 +76,7 @@
                        Source="{extensions:ImageResource NeomorphismSmartHomeApp.Resources.Images.Wifi.png }"/>
 
                 <Label Text="Wifi"
-                       FontFamily="RobotoCondensedBold"
-                       FontSize="Small"
+                       FontSize="10"
                        TextColor="#95a3b8"
                        VerticalOptions="EndAndExpand"/>
                 
@@ -101,8 +97,7 @@
                        Source="{extensions:ImageResource NeomorphismSmartHomeApp.Resources.Images.Temperature.png }"/>
 
                 <Label Text="Temperature"
-                       FontFamily="RobotoCondensedBold"
-                       FontSize="Small"
+                       FontSize="10"
                        TextColor="#95a3b8"
                        VerticalOptions="EndAndExpand"/>
             </StackLayout>
@@ -125,26 +120,39 @@
                        Source="{extensions:ImageResource NeomorphismSmartHomeApp.Resources.Images.AddMore.png }"/>
 
                 <Label Text="Add more"
-                       FontFamily="RobotoCondensedBold"
-                       FontSize="Small"
+                       FontSize="10"
                        TextColor="#95a3b8"
                        VerticalOptions="EndAndExpand"/>
             </StackLayout>
         </neo:NeoButton>
 
-        <Label Text="Temperature" FontFamily="RobotoCondensedRegular" Grid.Row="3" VerticalOptions="Center"
-               FontSize="Medium" TextColor="Black"/>
+        <Label Text="Temperature" 
+               Grid.Row="3" 
+               VerticalOptions="Center"
+               FontSize="12" 
+               TextColor="Black"/>
 
-        <Label Text="Lorem Ipsum is simply dummy" Grid.Row="3" Grid.ColumnSpan="2" 
-               FontFamily="RobotoCondensedRegular"
+        <Label Text="Lorem Ipsum is simply dummy" 
+               Grid.Row="3" Grid.ColumnSpan="2" 
                VerticalOptions="End"
-               FontSize="Micro"  TextColor="Gray"/>
+               FontSize="10"  TextColor="Gray"/>
 
-        <Label Text="20°C" FontSize="37" FontFamily="RobotoCondensedLight"  Grid.Row="3" Grid.Column="1"
-               VerticalOptions="Center" HorizontalOptions="End" TextColor="Gray"/>
+        <Label Text="20°C" 
+               FontSize="37" 
+               Grid.Row="3" 
+               Grid.Column="1"
+               VerticalOptions="Center" 
+               HorizontalOptions="End" 
+               TextColor="Gray"/>
 
-        <neo:NeoProgressView x:Name="progressBar" Margin="10,0,10,27" Grid.Row="4" BarColor="Orange" Elevation=".25"
-                             Thickness="20" BackgroundColor="#e3edf7" Grid.ColumnSpan="2">
+        <neo:NeoProgressView x:Name="progressBar" 
+                             Margin="10,0,10,27" 
+                             Grid.Row="4" 
+                             BarColor="Orange" 
+                             Elevation=".25"
+                             Thickness="20" 
+                             BackgroundColor="#e3edf7" 
+                             Grid.ColumnSpan="2">
             
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="FillAndExpand">
@@ -158,7 +166,6 @@
                 
                 <Label Text="32°C"
                        TextColor="#95a3b8"
-                       FontFamily="RobotoCondensedBold"
                        VerticalOptions="FillAndExpand"
                        VerticalTextAlignment="Center"/>
             </StackLayout>
