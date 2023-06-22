@@ -6,7 +6,7 @@ My RnD of experimental cross-platform [NeomorphismSmartHomeApp](https://github.c
  [Smart Home App UI by Amit kumar](https://dribbble.com/shots/9890579-Neomorphism-soft-UI-Design-for-Smart-Home-App)
 
 ## Used components
-- [Xamarin.Forms.NeoControls v1.0.0-pre](https://github.com/felipebaltazar/Xamarin.Forms.NeoControls)
+- [Xamarin.Forms.NeoControls v1.1.0-pre](https://github.com/felipebaltazar/Xamarin.Forms.NeoControls)
 - SkiaSharp.Views.Forms v 1.68.0
 - Xamarin.Forms v3.3.0.912540
 - Win SDK 16299
